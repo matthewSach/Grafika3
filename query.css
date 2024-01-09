@@ -1,0 +1,141 @@
+@media (max-width: 1100px){
+    .header-content{
+        width: 80%!important;
+    }
+    .grid-container{
+
+        width: 80%!important;
+        flex-direction: column;
+    }
+    .box{
+        
+
+    }
+
+    .yellow-box-section{
+        width: auto!important;
+        flex-wrap: wrap;
+        height: 300px!important;
+        justify-content: center;
+        
+    }
+    .yellow-box{
+        width: 200px!important;
+        padding: 0!important;
+
+    }
+    .orange-box-section{
+       /* width: auto!important;
+        border: 1px solid orange;
+        flex-wrap: wrap;
+        height: 300px!important;
+        margin: 0 auto;
+        justify-content: center;*/
+        display: none!important;
+        
+    }
+    .orange-box{
+        /*width: 200px!important;*/
+    }
+    .red-box-section{
+        width: auto!important;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        
+    }
+    .red-box{
+        width: 200px!important;
+        padding: 0!important;
+
+    }
+    .sidebar{
+        width: 415px!important;
+        height: 100px!important;
+        margin: 0 auto!important;
+        padding: -5px;
+        padding: 0!important;
+    }
+
+    .footer-containers{
+        width: 415px!important;
+
+        display: flex;
+        justify-content: center!important;
+        flex-wrap: wrap;   
+        row-gap: 10px;
+        column-gap: 10px;
+}
+    
+    
+    .ft-con{
+        width: 48.5%!important;
+        margin: 0!important;
+    }
+    
+    .ft-con:last-child{        
+        margin: 0!important;
+        width: 100%!important;  
+    }
+
+    
+
+}
+
+@media (max-width: 562px){
+    
+    .orange-box-section{
+        display: flex!important;
+        width: auto!important;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+        
+     }
+     .orange-box{
+        width: 200px!important;
+        margin-top: 10px!important;
+    }
+    .red-box{
+        width: 200px!important;
+        margin-top: 10px!important;
+    }
+    .red-box-section{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .yellow-box{
+        width: 200px!important;
+        margin-top: 10px!important;
+    }
+
+
+    .footer-containers{
+        width: 83%!important;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center!important;
+        flex-wrap: wrap;           
+    }
+
+    .sidebar{
+        width: 200px!important;        
+        margin: 0 auto!important;
+        padding: 0!important;
+    }
+
+    
+    
+
+    .ft-con{
+        width: 200px!important;
+    }
+    .ft-con:last-child{        
+        padding: 0!important;
+        width: 200px!important;  
+    }
+    
+}

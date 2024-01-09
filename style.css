@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white; 
+
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+ header, footer { 
+   background-color: #6a1b9a; 
+   padding: 10px; 
+   text-align: center; 
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+.active{
+    text-decoration: underline;
+}
+.search{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigace{
+    width: auto;
+    text-align: left;
+    line-height: 30px;
+    height: 30px;
+    background: #81B8DF;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 10px;   
+}
+.nav-link{
+    margin: 0 5px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    width: auto;
+}
+
+.icon{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    background: #81B8DF;
+    
+}
+/*      OBSAH STRÁNKY   */
+ .sidebar { 
+   background-color: #00897b; 
+   padding: 10px; 
+   width: 25%;
+   margin: 10px;
+   margin-right: 0;
+}
+
+.grid-container{
+    margin: 10px auto;
+    width: 1000px;
+    display: flex;
+    
+}
+.box { 
+   padding: 10px; 
+   margin: 7px; 
+}
+
+.yellow-box-section{
+    display: flex;
+    width: 800px;
+    height: 150px;
+}
+
+ .yellow-box { 
+   background-color: #ffd54f; 
+   width: 25%;
+}
+
+.orange-box-section{
+    display: flex;
+    width: 800px;
+    
+    height: 150px;
+}
+ .orange-box { 
+   background-color: #fb8c00;
+   width: 33%; 
+}
+
+.red-box-section{
+    display: flex;
+    width: 800px;
+    height: 150px;
+}
+
+ .red-box { 
+   background-color: #e53935; 
+   width: 50%;
+}
+ 
+footer{
+    margin: 0;
+}
+
+.footer-containers{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.ft-con{
+    background: #B296C7;
+    width: 33.3%;
+    height: 100px;
+}
